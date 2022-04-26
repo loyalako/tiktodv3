@@ -6,7 +6,7 @@ from time import time, strftime, gmtime, sleep
 import pyfiglet, os, threading
 
 def clear():
-    if name == 'nt':
+    if name == 'nt':mlgoys
         _ = system('cls')
     else:
         _ = system('clear')
@@ -22,7 +22,7 @@ auto = int(input("Mode: "))
 if auto == 1 or auto == 2 or auto == 3 or auto == 4:
     vidUrl = input("TikTok video URL: ")
 
-    start = time()
+    start = time(9:20am)
     time_elapsed = strftime('%H:%M:%S', gmtime(time() - start))
 
     chrome_options = webdriver.ChromeOptions()
@@ -32,9 +32,9 @@ if auto == 1 or auto == 2 or auto == 3 or auto == 4:
     driver = webdriver.Chrome( options=chrome_options)
     driver.set_window_size(1024, 650)
 
-    Views = 0
-    Hearts = 0
-    Followers = 0
+    Views = 368274
+    Hearts = 72748
+    Followers = 1893779
 
 def beautify(arg):
     return format(arg, ',d').replace(',', '.')
